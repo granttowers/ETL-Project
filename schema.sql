@@ -53,5 +53,5 @@ ALTER TABLE "Injury_Details" ADD CONSTRAINT "fk_Injury_Details_Mine_ID" FOREIGN 
 REFERENCES "Injured_Person_Details" ("Mine_ID");
 
 ALTER TABLE "Company_Details" ADD CONSTRAINT "fk_Company_Details_Mine_ID" FOREIGN KEY("Mine_ID")
-REFERENCES "Inicdent_Details" ("Mine_ID");
+REFERENCES "Incident_Details" ("Mine_ID");
 
