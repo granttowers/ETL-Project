@@ -28,6 +28,7 @@ CREATE TABLE "Injury_Details" (
     "Injury_classification" TEXT,
     "Injury_count" INT,
     "Injury_days_lost" TEXT,
+    "Injury_nature" TEXT,
     "Injury_source" TEXT,
     "Injury_type" TEXT
 );
