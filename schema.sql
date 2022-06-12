@@ -1,5 +1,5 @@
 
-CREATE TABLE "Inicdent_Details" (
+CREATE TABLE "Incident_Details" (
     "Mine_ID" TEXT,
     "Day" TEXT,
     "Month" TEXT,
@@ -46,7 +46,7 @@ CREATE TABLE "Company_Details" (
      )
 );
 
-ALTER TABLE "Inicdent_Details" ADD CONSTRAINT "fk_Inicdent_Details_Mine_ID" FOREIGN KEY("Mine_ID")
+ALTER TABLE "Incident_Details" ADD CONSTRAINT "fk_Inicdent_Details_Mine_ID" FOREIGN KEY("Mine_ID")
 REFERENCES "Injury_Details" ("Mine_ID");
 
 ALTER TABLE "Injury_Details" ADD CONSTRAINT "fk_Injury_Details_Mine_ID" FOREIGN KEY("Mine_ID")
