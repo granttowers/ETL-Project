@@ -43,7 +43,7 @@ Project to be completed and handed over to the client on 13/06/2022.
 ## Data Sourcing and Extraction
 
 To fill the request of the safety team we needed a reasonably large set of comprehensive data. Lucky for us it was readily available at https://www.cdc.gov/niosh/mining/data/
-From here we were able to download to large csv files from the 2020 sets of data, these CVSs where:
+From here we were able to download two large csv files from the 2020 sets of data, these CVSs where:
 
 -	employment.csv
 -	incident_file.csv
