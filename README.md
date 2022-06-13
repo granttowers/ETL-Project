@@ -1,23 +1,23 @@
 # ETL-Project Scoping Document
 
-Project Leads and Key Contacts:
+## Project Leads and Key Contacts:
 - Nicholas Mcmahon – Data Analyst
 - Grant Towers – Data Analyst
 - Amy Anderson and Daniel Kasatchkow – Safety Experts (Subject Matter Experts)
 
-Project Background:
+## Project Background:
 
 Safety Team have requested we prepare a new database for the storage and query (as required), of regulator (external) injury data from 2020. 
 This will allow the team to complete analysis of our company injuries with industry, which will be used provide insights to the leadership team on areas for improvement.
 
 
-Data Project Requirements:
+## Data Project Requirements:
 
 We are required to build a new DB and ETL process so that the data is structured, cleansed and added to the DB. 
 As the Safety Team are not data experts, we have seconded Amy and Daniel, who will work with us to cleanse the data by identiftying unrequired columns and rename existing labels (to better suit the end users). 
 
 
-Data Transformation Requirements:
+## Data Transformation Requirements:
 
 As part of our preparation and review, we have had to review not only the industry data, but also our own internal data to ensure that is comparable and will allow us to collate the information. 
 Amazingly, our review identified that the columns used by the regulator were exactly the same as our data! There were some exceptions to this, as the regulator captured a lot more additional information than we capture.
@@ -33,8 +33,10 @@ This file contains:
 Note: The data cleansing activity will need to be reviewed each year, just to ensure that all information is still in the same format. 
 
 
-Project Deadline:
+## Project Deadline:
 Project to be completed and handed over to the client on 13/06/2022.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+# Project Report
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
