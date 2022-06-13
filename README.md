@@ -40,3 +40,35 @@ Project to be completed and handed over to the client on 13/06/2022.
 # Project Report
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Data Sourcing and Extraction
+
+To fill the request of the safety team we needed a reasonably large set of comprehensive data. Lucky for us it was readily available at https://www.cdc.gov/niosh/mining/data/
+From here we were able to download to large csv files from the 2020 sets of data, these CVSs where:
+-	employment.csv
+-	incident_file.csv
+To understand properly how we needed to transform the data we had in the CSV files we first decided on a table structure for our Database. 
+Firstly, we used an excel spreadsheet to dissect the tables in the CSV files to decide what columns were most useful for our task (see first picture below). Once we had a list of useful columns used the tool  http://www.quickdatabasediagrams.com to come up with the schema (second picture) and export it to a SQL file.
+
+![DataTableClean](DataTableClean.PNG) 
+
+![ERD](ERD.PNG)
+
+## Transformation of Data
+
+Once we were happy with the table structure and data we had acquired it was time use pandas to import it into our notebook file and let the transformation process begin. The transformation steps were as follows:
+-	Import all dependencies and setup CSV panda reads.
+-	Create clean incident data table by dropping additional columns and rename remaining columns from data frames.
+-	Replace identified 'dirty' data values in the incident_data table.
+-	Create clean employment data table by dropping additional columns and rename remaining columns from data frames.
+
+## Loading Data
+
+Once the data was transformed to the desired format and cleaned it was time to export it and load it to the final database. We decided to use a relational database (PostgreSQL).  The data load steps were as follows:
+-	Create Incident_data Database in Postgres pgAdmin4
+-	Create 'incident_details' table and export to csv file.
+-	Create 'injured_person_details' table and export to csv file.
+-	Create 'injury_details' table and export to csv file.
+-	Create 'company_details' table and export to csv file.
+-	Create a database connection to postgres. 
+-	Create New Tables and upload data.
+
