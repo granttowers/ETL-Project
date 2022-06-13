@@ -44,8 +44,10 @@ Project to be completed and handed over to the client on 13/06/2022.
 
 To fill the request of the safety team we needed a reasonably large set of comprehensive data. Lucky for us it was readily available at https://www.cdc.gov/niosh/mining/data/
 From here we were able to download to large csv files from the 2020 sets of data, these CVSs where:
+
 -	employment.csv
 -	incident_file.csv
+
 To understand properly how we needed to transform the data we had in the CSV files we first decided on a table structure for our Database. 
 Firstly, we used an excel spreadsheet to dissect the tables in the CSV files to decide what columns were most useful for our task (see first picture below). Once we had a list of useful columns used the tool  http://www.quickdatabasediagrams.com to come up with the schema (second picture) and export it to a SQL file.
 
